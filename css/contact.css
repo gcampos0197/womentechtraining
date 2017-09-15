@@ -1,0 +1,9 @@
+.bg {
+  background-image: url('../img/work.jpg');
+  height: 700px;
+  background-size: cover;
+}
+
+.form {
+  left: 200px;
+}
