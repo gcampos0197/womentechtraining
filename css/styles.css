@@ -1,23 +1,47 @@
-.btn-primary {
-    background-color: red;
-  }
+/*h1{
+  font-size: 100px;
+  position: absolute;
+  color: pink;
+}*/
 
-.btn-group-lg>.btn, .btn-lg {
-  border-radius: 6px;
+.nav {
+  text-align: right;
 }
 
-.col-md-4 {
-  height:50px;
-  }
-
-.red {
-  background-color: red;
+.jumbo-img {
+  background-image: url('../img/hero.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 
-.green {
-  background-color: green;
+/*Developer of the week*/
+#DOW{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.blue {
-  background-color: blue;
+.dow-header{
+  margin-bottom: 40px;
+}
+.DOW {
+  width: 130px;
+  margin-left: 15px;
+}
+
+.media-text {
+  width: 500px;
+}
+
+/*footer*/
+
+.footer{
+  background-color: lightgrey;
+}
+
+/*media queries*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url('bg2.jpg');
+    }
 }
