@@ -1,29 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day 2</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <ul class="nav nav-pills nav">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+  </ul>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <div class="jumbotron jumbo-img">
+    <h1>Want a Website</h1>
+    <p>and need a web developer?</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Hire one today!</a></p>
+  </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Devvelopers of the week -->
+<div class="container" id="DOW">
+  <h1 class="text-center dow-header">
+    Developers of the Week!
+  </h1>
+  <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object DOW" src="img/Liz.PNG" alt="Liz">
+    </a>
+  </div>
+  <div class="media-body media-text">
+    <h4 class="media-heading">Lizzann</h4>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quos vel temporibus a nisi libero, architecto sint ipsam dicta quasi!</div>
+  </div>
+  <div class="media-right">
+    <a href="#">
+      <img class="media-object DOW" src="img/Fer.PNG" alt="Fer">
+    </a>
+  </div>
+  <div class="media-body media-text">
+    <h4 class="media-heading">Fer</h4>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dolorum voluptatibus laborum ipsa vel doloribus minus quibusdam impedit reprehenderit!
+  </div>
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object DOW" src="img/kayla.PNG" alt="kayla">
+    </a>
+  </div>
+  <div class="media-body media-text">
+    <h4 class="media-heading">Kayla</h4>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut reprehenderit, dolor sit vitae sunt autem, vero praesentium sequi eveniet inventore alias!
+  </div>
+</div>
+</div>
+
+<!-- developers of the week -->
+
+
+  <!--Footer starts here-->
+<footer class="container-fluid footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 footer-logo">
+			<div class="flex">
+
+			</div>
+			</div><!--CONTACT ENDS-->
+					<div class="col-sm-3 contact-info">
+							<p class="address">
+								Get A Developer<br>
+								Fresno, CA<br>
+							  HelpDesk@GetADeveloper.com</p>
+					</div>
+					<div class="col-sm-3 social"> <!-- SOCIAL BEGINS -->
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+							<span class="hidden-xs">Facebook</span>
+						</a>
+
+						<br class="hidden-xs">
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+							<span class="hidden-xs">Twitter</span>
+						</a>
+						<br class="hidden-xs">
+						<a href="#">
+							<i class="fa fa-linkedin"></i>
+							<span class="hidden-xs">Linked In</span>
+						</a>
+
+					</div><!--SOCIAL ENDS-->
+				</div>
+				<div class="row"><!--COPYRIGHT BEGINS-->
+					<div class="col-sm-12 fine-print text-center">
+						<p>&copy; GetADeveloper, Inc. All Rights Reserved.</p>
+					</div>
+				</div> <!--COPYRIGHT ENDS-->
+			</div>
+</footer> <!--Footer Ends Here-->
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>

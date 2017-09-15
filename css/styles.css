@@ -1,0 +1,47 @@
+/*h1{
+  font-size: 100px;
+  position: absolute;
+  color: pink;
+}*/
+
+.nav {
+  text-align: right;
+}
+
+.jumbo-img {
+  background-image: url('../img/hero.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+/*Developer of the week*/
+#DOW{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dow-header{
+  margin-bottom: 40px;
+}
+.DOW {
+  width: 130px;
+  margin-left: 15px;
+}
+
+.media-text {
+  width: 500px;
+}
+
+/*footer*/
+
+.footer{
+  background-color: lightgrey;
+}
+
+/*media queries*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url('bg2.jpg');
+    }
+}
