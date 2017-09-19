@@ -13,6 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
+  background-attachment: fixed;
 }
 
 .jumbo-text {
@@ -42,6 +43,20 @@
 
 .footer{
   background-color: lightgrey;
+  height: 100px;
+}
+
+.contact-info,
+.social {
+  margin-top: 20px;
+}
+
+.copyright {
+  margin-top: 15px;
+}
+.fine-print {
+  margin-top: 15px;
+  font-size: 10px;
 }
 
 /*media queries*/
